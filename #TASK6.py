@@ -8,7 +8,7 @@ import numpy as np
 class VisionProcessor:
     def __init__(self):
         self._image = None          
-        self.processed_image = None  К
+        self.processed_image = None  
 
     def load_image(self, path):
         self._image = cv2.imread(path)
